@@ -246,10 +246,10 @@ public class RockOnSettings extends PreferenceActivity {
 			/*
 			 * Dialog settings
 			 */
-			daysDialogBuilder.setTitle("What is recent?");
+			daysDialogBuilder.setTitle(getString(R.string.settings_what_is_recent));
 			daysDialogBuilder.setIcon(android.R.drawable.ic_menu_month);
-			daysDialogBuilder.setPositiveButton("Change", recentPeriodChangeOnClickListener);
-			daysDialogBuilder.setNegativeButton("Cancel", null);
+			daysDialogBuilder.setPositiveButton(getString(R.string.settings_change), recentPeriodChangeOnClickListener);
+			daysDialogBuilder.setNegativeButton(getString(R.string.settings_cancel), null);
 			
 			AlertDialog daysDialog = daysDialogBuilder.create();
 //			RelativeLayout.LayoutParams params = 

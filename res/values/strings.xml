@@ -38,4 +38,7 @@
         <item>Change Album Art</item>
     </array> 
 	
+<string name="settings_change">Change</string>
+<string name="settings_cancel">Cancel</string>
+<string name="settings_what_is_recent">What is recent?</string>
 </resources>
